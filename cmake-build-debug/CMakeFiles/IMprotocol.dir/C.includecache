@@ -55,6 +55,8 @@ cJson/cJSON.h
 /Users/eddie/Documents/CLionProject/IMprotocol/cJson/cJSON.h
 stdio.h
 -
+string.h
+-
 
 /Users/eddie/Documents/CLionProject/IMprotocol/client_info.h
 
