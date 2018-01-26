@@ -51,5 +51,7 @@ void send_add_chat_info(ADD_INFO *chat_info,char *json);
 char* re_status_info(RE_INFO *re_info);
 //反回朋友信息
 char* re_friend_info(FRIEND *aFriend , int len);
+//获取Action信息
+void getAction(CHAT_INFO *info,char *json);
 
 #endif

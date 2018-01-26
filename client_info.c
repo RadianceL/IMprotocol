@@ -1,8 +1,5 @@
 #include "client_info.h"
-
 #include "cJson/cJSON.h"
-#include <stdio.h>
-#include <string.h>
 
 void send_client_login_info(LOGIN_INFO *login_info,char *json) {
     cJSON *item;
@@ -22,6 +19,14 @@ void send_client_login_info(LOGIN_INFO *login_info,char *json) {
 
     item = cJSON_GetObjectItem(root,"time");
     login_info->t = item->valuestring;
+}
+
+void getAction(CHAT_INFO *info,char *json){
+    cJSON *item;
+    cJSON *root= cJSON_Parse(json);
+
+    item = cJSON_GetObjectItem(root,"ACTION");
+    info->ACTION = item->valueint;
 }
 
 void send_client_logout_info(LOGOUT_INFO *logout_info,char *json) {
@@ -68,11 +73,6 @@ void send_add_chat_info(ADD_INFO *chat_info,char *json) {
     item = cJSON_GetObjectItem(root,"account");
     chat_info->account = item->valuestring;
 }
-
-
-
-
-
 
 
 //反悔好友信息
