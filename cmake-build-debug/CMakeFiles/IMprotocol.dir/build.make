@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/eddie/clion-2017.3.2/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
+RM = /home/eddie/clion-2017.3.2/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/eddie/Documents/CLionProject/IMprotocol
+CMAKE_SOURCE_DIR = /home/eddie/Documents/ClionProject/IMprotocol
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/eddie/Documents/CLionProject/IMprotocol/cmake-build-debug
+CMAKE_BINARY_DIR = /home/eddie/Documents/ClionProject/IMprotocol/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/IMprotocol.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/IMprotocol.dir/flags.make
 
 CMakeFiles/IMprotocol.dir/client_info.c.o: CMakeFiles/IMprotocol.dir/flags.make
 CMakeFiles/IMprotocol.dir/client_info.c.o: ../client_info.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eddie/Documents/CLionProject/IMprotocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/IMprotocol.dir/client_info.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/IMprotocol.dir/client_info.c.o   -c /Users/eddie/Documents/CLionProject/IMprotocol/client_info.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eddie/Documents/ClionProject/IMprotocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/IMprotocol.dir/client_info.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/IMprotocol.dir/client_info.c.o   -c /home/eddie/Documents/ClionProject/IMprotocol/client_info.c
 
 CMakeFiles/IMprotocol.dir/client_info.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/IMprotocol.dir/client_info.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eddie/Documents/CLionProject/IMprotocol/client_info.c > CMakeFiles/IMprotocol.dir/client_info.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eddie/Documents/ClionProject/IMprotocol/client_info.c > CMakeFiles/IMprotocol.dir/client_info.c.i
 
 CMakeFiles/IMprotocol.dir/client_info.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/IMprotocol.dir/client_info.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eddie/Documents/CLionProject/IMprotocol/client_info.c -o CMakeFiles/IMprotocol.dir/client_info.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eddie/Documents/ClionProject/IMprotocol/client_info.c -o CMakeFiles/IMprotocol.dir/client_info.c.s
 
 CMakeFiles/IMprotocol.dir/client_info.c.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/IMprotocol.dir/client_info.c.o.provides.build: CMakeFiles/IMprotocol.
 
 CMakeFiles/IMprotocol.dir/cJson/cJSON_Utils.c.o: CMakeFiles/IMprotocol.dir/flags.make
 CMakeFiles/IMprotocol.dir/cJson/cJSON_Utils.c.o: ../cJson/cJSON_Utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eddie/Documents/CLionProject/IMprotocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/IMprotocol.dir/cJson/cJSON_Utils.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/IMprotocol.dir/cJson/cJSON_Utils.c.o   -c /Users/eddie/Documents/CLionProject/IMprotocol/cJson/cJSON_Utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eddie/Documents/ClionProject/IMprotocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/IMprotocol.dir/cJson/cJSON_Utils.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/IMprotocol.dir/cJson/cJSON_Utils.c.o   -c /home/eddie/Documents/ClionProject/IMprotocol/cJson/cJSON_Utils.c
 
 CMakeFiles/IMprotocol.dir/cJson/cJSON_Utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/IMprotocol.dir/cJson/cJSON_Utils.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eddie/Documents/CLionProject/IMprotocol/cJson/cJSON_Utils.c > CMakeFiles/IMprotocol.dir/cJson/cJSON_Utils.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eddie/Documents/ClionProject/IMprotocol/cJson/cJSON_Utils.c > CMakeFiles/IMprotocol.dir/cJson/cJSON_Utils.c.i
 
 CMakeFiles/IMprotocol.dir/cJson/cJSON_Utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/IMprotocol.dir/cJson/cJSON_Utils.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eddie/Documents/CLionProject/IMprotocol/cJson/cJSON_Utils.c -o CMakeFiles/IMprotocol.dir/cJson/cJSON_Utils.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eddie/Documents/ClionProject/IMprotocol/cJson/cJSON_Utils.c -o CMakeFiles/IMprotocol.dir/cJson/cJSON_Utils.c.s
 
 CMakeFiles/IMprotocol.dir/cJson/cJSON_Utils.c.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/IMprotocol.dir/cJson/cJSON_Utils.c.o.provides.build: CMakeFiles/IMpro
 
 CMakeFiles/IMprotocol.dir/cJson/cJSON.c.o: CMakeFiles/IMprotocol.dir/flags.make
 CMakeFiles/IMprotocol.dir/cJson/cJSON.c.o: ../cJson/cJSON.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eddie/Documents/CLionProject/IMprotocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/IMprotocol.dir/cJson/cJSON.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/IMprotocol.dir/cJson/cJSON.c.o   -c /Users/eddie/Documents/CLionProject/IMprotocol/cJson/cJSON.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eddie/Documents/ClionProject/IMprotocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/IMprotocol.dir/cJson/cJSON.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/IMprotocol.dir/cJson/cJSON.c.o   -c /home/eddie/Documents/ClionProject/IMprotocol/cJson/cJSON.c
 
 CMakeFiles/IMprotocol.dir/cJson/cJSON.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/IMprotocol.dir/cJson/cJSON.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eddie/Documents/CLionProject/IMprotocol/cJson/cJSON.c > CMakeFiles/IMprotocol.dir/cJson/cJSON.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eddie/Documents/ClionProject/IMprotocol/cJson/cJSON.c > CMakeFiles/IMprotocol.dir/cJson/cJSON.c.i
 
 CMakeFiles/IMprotocol.dir/cJson/cJSON.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/IMprotocol.dir/cJson/cJSON.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eddie/Documents/CLionProject/IMprotocol/cJson/cJSON.c -o CMakeFiles/IMprotocol.dir/cJson/cJSON.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eddie/Documents/ClionProject/IMprotocol/cJson/cJSON.c -o CMakeFiles/IMprotocol.dir/cJson/cJSON.c.s
 
 CMakeFiles/IMprotocol.dir/cJson/cJSON.c.o.requires:
 
@@ -143,7 +143,7 @@ libIMprotocol.a: CMakeFiles/IMprotocol.dir/cJson/cJSON_Utils.c.o
 libIMprotocol.a: CMakeFiles/IMprotocol.dir/cJson/cJSON.c.o
 libIMprotocol.a: CMakeFiles/IMprotocol.dir/build.make
 libIMprotocol.a: CMakeFiles/IMprotocol.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/eddie/Documents/CLionProject/IMprotocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libIMprotocol.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eddie/Documents/ClionProject/IMprotocol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libIMprotocol.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/IMprotocol.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/IMprotocol.dir/link.txt --verbose=$(VERBOSE)
 
@@ -163,6 +163,6 @@ CMakeFiles/IMprotocol.dir/clean:
 .PHONY : CMakeFiles/IMprotocol.dir/clean
 
 CMakeFiles/IMprotocol.dir/depend:
-	cd /Users/eddie/Documents/CLionProject/IMprotocol/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eddie/Documents/CLionProject/IMprotocol /Users/eddie/Documents/CLionProject/IMprotocol /Users/eddie/Documents/CLionProject/IMprotocol/cmake-build-debug /Users/eddie/Documents/CLionProject/IMprotocol/cmake-build-debug /Users/eddie/Documents/CLionProject/IMprotocol/cmake-build-debug/CMakeFiles/IMprotocol.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/eddie/Documents/ClionProject/IMprotocol/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eddie/Documents/ClionProject/IMprotocol /home/eddie/Documents/ClionProject/IMprotocol /home/eddie/Documents/ClionProject/IMprotocol/cmake-build-debug /home/eddie/Documents/ClionProject/IMprotocol/cmake-build-debug /home/eddie/Documents/ClionProject/IMprotocol/cmake-build-debug/CMakeFiles/IMprotocol.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/IMprotocol.dir/depend
 

@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/eddie/Documents/CLionProject/IMprotocol/cJson/cJSON.c" "/Users/eddie/Documents/CLionProject/IMprotocol/cmake-build-debug/CMakeFiles/IMprotocol.dir/cJson/cJSON.c.o"
-  "/Users/eddie/Documents/CLionProject/IMprotocol/cJson/cJSON_Utils.c" "/Users/eddie/Documents/CLionProject/IMprotocol/cmake-build-debug/CMakeFiles/IMprotocol.dir/cJson/cJSON_Utils.c.o"
-  "/Users/eddie/Documents/CLionProject/IMprotocol/client_info.c" "/Users/eddie/Documents/CLionProject/IMprotocol/cmake-build-debug/CMakeFiles/IMprotocol.dir/client_info.c.o"
+  "/home/eddie/Documents/ClionProject/IMprotocol/cJson/cJSON.c" "/home/eddie/Documents/ClionProject/IMprotocol/cmake-build-debug/CMakeFiles/IMprotocol.dir/cJson/cJSON.c.o"
+  "/home/eddie/Documents/ClionProject/IMprotocol/cJson/cJSON_Utils.c" "/home/eddie/Documents/ClionProject/IMprotocol/cmake-build-debug/CMakeFiles/IMprotocol.dir/cJson/cJSON_Utils.c.o"
+  "/home/eddie/Documents/ClionProject/IMprotocol/client_info.c" "/home/eddie/Documents/ClionProject/IMprotocol/cmake-build-debug/CMakeFiles/IMprotocol.dir/client_info.c.o"
   )
-set(CMAKE_C_COMPILER_ID "AppleClang")
+set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/eddie/Documents/CLionProject/IMprotocol/cJson/cJSON.c
+/home/eddie/Documents/ClionProject/IMprotocol/cJson/cJSON.c
 string.h
 -
 stdio.h
@@ -24,13 +24,13 @@ ctype.h
 locale.h
 -
 cJSON.h
-/Users/eddie/Documents/CLionProject/IMprotocol/cJson/cJSON.h
+/home/eddie/Documents/ClionProject/IMprotocol/cJson/cJSON.h
 
-/Users/eddie/Documents/CLionProject/IMprotocol/cJson/cJSON.h
+/home/eddie/Documents/ClionProject/IMprotocol/cJson/cJSON.h
 stddef.h
 -
 
-/Users/eddie/Documents/CLionProject/IMprotocol/cJson/cJSON_Utils.c
+/home/eddie/Documents/ClionProject/IMprotocol/cJson/cJSON_Utils.c
 ctype.h
 -
 string.h
@@ -42,17 +42,21 @@ stdio.h
 limits.h
 -
 cJSON_Utils.h
-/Users/eddie/Documents/CLionProject/IMprotocol/cJson/cJSON_Utils.h
+/home/eddie/Documents/ClionProject/IMprotocol/cJson/cJSON_Utils.h
 
-/Users/eddie/Documents/CLionProject/IMprotocol/cJson/cJSON_Utils.h
+/home/eddie/Documents/ClionProject/IMprotocol/cJson/cJSON_Utils.h
 cJSON.h
-/Users/eddie/Documents/CLionProject/IMprotocol/cJson/cJSON.h
+/home/eddie/Documents/ClionProject/IMprotocol/cJson/cJSON.h
 
-/Users/eddie/Documents/CLionProject/IMprotocol/client_info.c
+/home/eddie/Documents/ClionProject/IMprotocol/client_info.c
+malloc.h
+-
+string.h
+-
 client_info.h
-/Users/eddie/Documents/CLionProject/IMprotocol/client_info.h
+/home/eddie/Documents/ClionProject/IMprotocol/client_info.h
 cJson/cJSON.h
-/Users/eddie/Documents/CLionProject/IMprotocol/cJson/cJSON.h
+/home/eddie/Documents/ClionProject/IMprotocol/cJson/cJSON.h
 
-/Users/eddie/Documents/CLionProject/IMprotocol/client_info.h
+/home/eddie/Documents/ClionProject/IMprotocol/client_info.h
 

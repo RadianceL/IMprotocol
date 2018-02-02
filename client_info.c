@@ -1,3 +1,5 @@
+#include <malloc.h>
+#include <string.h>
 #include "client_info.h"
 #include "cJson/cJSON.h"
 
@@ -5,20 +7,28 @@ void send_client_login_info(LOGIN_INFO *login_info,char *json) {
     cJSON *item;
     cJSON *root= cJSON_Parse(json);
 
+    login_info->account = malloc(16);
+    login_info->passwd = malloc(16);
+    login_info->IP = malloc(16);
+    login_info->t = malloc(16);
+
     item=cJSON_GetObjectItem(root,"IP");
-    login_info->IP = item->valuestring;
+    strcpy(login_info->IP,item->valuestring);
 
     item = cJSON_GetObjectItem(root,"ACTION");
     login_info->ACTION = item->valueint;
 
     item = cJSON_GetObjectItem(root,"account");
-    login_info->account = item->valuestring;
+    strcpy(login_info->account,item->valuestring);
 
     item = cJSON_GetObjectItem(root,"password");
-    login_info->passwd = item->valuestring;
+    strcpy(login_info->passwd,item->valuestring);
 
     item = cJSON_GetObjectItem(root,"time");
-    login_info->t = item->valuestring;
+    strcpy(login_info->t,item->valuestring);
+
+    if (root)
+        cJSON_Delete(root);
 }
 
 void getAction(CHAT_INFO *info,char *json){
@@ -27,51 +37,77 @@ void getAction(CHAT_INFO *info,char *json){
 
     item = cJSON_GetObjectItem(root,"ACTION");
     info->ACTION = item->valueint;
+
+    if (root)
+        cJSON_Delete(root);
 }
 
 void send_client_logout_info(LOGOUT_INFO *logout_info,char *json) {
     cJSON *item;
-    cJSON *root= cJSON_Parse(json);
+    cJSON *root = cJSON_Parse(json);
+
+    logout_info->account = malloc(16);
+    logout_info->IP = malloc(16);
+    logout_info->t = malloc(16);
 
     item=cJSON_GetObjectItem(root,"IP");
-    logout_info->IP = item->valuestring;
+    strcpy(logout_info->IP,item->valuestring);
 
     item = cJSON_GetObjectItem(root,"ACTION");
     logout_info->ACTION = item->valueint;
 
     item = cJSON_GetObjectItem(root,"account");
-    logout_info->account = item->valuestring;
+    strcpy(logout_info->account,item->valuestring);
 
     item = cJSON_GetObjectItem(root,"time");
-    logout_info->t = item->valuestring;
+    strcpy(logout_info->t,item->valuestring);
+
+    if (root)
+        cJSON_Delete(root);
 }
 
 void send_client_chat_info(CHAT_INFO *chat_info,char *json) {
     cJSON *item;
     cJSON *root= cJSON_Parse(json);
 
+    chat_info->message = malloc(256);
+    chat_info->account = malloc(16);
+    chat_info->IP = malloc(16);
+    chat_info->t = malloc(16);
+
     item=cJSON_GetObjectItem(root,"IP");
-    chat_info->IP = item->valuestring;
+    strcpy(chat_info->IP,item->valuestring);
 
     item = cJSON_GetObjectItem(root,"ACTION");
     chat_info->ACTION = item->valueint;
 
     item = cJSON_GetObjectItem(root,"account");
-    chat_info->account = item->valuestring;
+    strcpy(chat_info->account,item->valuestring);
+
+    item = cJSON_GetObjectItem(root,"message");
+    strcpy(chat_info->message,item->valuestring);
 
     item = cJSON_GetObjectItem(root,"time");
-    chat_info->t = item->valuestring;
+    strcpy(chat_info->t,item->valuestring);
+
+    if (root)
+        cJSON_Delete(root);
 }
 
 void send_add_chat_info(ADD_INFO *chat_info,char *json) {
     cJSON *item;
     cJSON *root= cJSON_Parse(json);
 
+    chat_info->account = malloc(16);
+
     item = cJSON_GetObjectItem(root,"ACTION");
     chat_info->ACTION = item->valueint;
 
     item = cJSON_GetObjectItem(root,"account");
-    chat_info->account = item->valuestring;
+    strcpy(chat_info->account,item->valuestring);
+
+    if (root)
+        cJSON_Delete(root);
 }
 
 
